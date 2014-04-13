@@ -27,6 +27,7 @@
   "dependencies": {
     "node-uuid": "~1.4.1",
     "imap": "~0.8.10",
-    "nodemailer": "~0.6.2"
+    "nodemailer": "~0.6.2",
+    "nconf": "~0.6.9"
   }
 }
