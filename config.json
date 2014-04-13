@@ -1,4 +1,9 @@
 {
-  "username": "xxx@gmail.com",
-  "password": "xxx"
+  "imap": {
+    "user": "xxx@gmail.com",
+    "password": "xxx",
+    "host": "imap.gmail.com",
+    "port": 993,
+    "tls": true
+  }
 }
