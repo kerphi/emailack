@@ -1,0 +1,32 @@
+{
+  "name": "emailack",
+  "version": "0.0.1",
+  "description": "This application can test your mail delevery system is not broken.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kerphi/emailack.git"
+  },
+  "keywords": [
+    "test",
+    "mail",
+    "smtp",
+    "delivery",
+    "gmail",
+    "imap"
+  ],
+  "author": "Stéphane Gully",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kerphi/emailack/issues"
+  },
+  "homepage": "https://github.com/kerphi/emailack",
+  "dependencies": {
+    "node-uuid": "~1.4.1",
+    "imap": "~0.8.10",
+    "nodemailer": "~0.6.2"
+  }
+}
