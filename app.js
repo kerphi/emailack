@@ -6,8 +6,7 @@ var app = express();
 app.enable('trust proxy');
 
 app.get('/', function (req, res){
-  var result = { emailAck: emailAck.getLastAck() };
-  res.send(result);
+  res.send(emailAck.getLastAck());
 });
 
 // web server errors handling
