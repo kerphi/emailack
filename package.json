@@ -25,9 +25,11 @@
   },
   "homepage": "https://github.com/kerphi/emailack",
   "dependencies": {
-    "node-uuid": "~1.4.1",
+    "debug": "^0.8.0",
+    "express": "^4.0.0",
     "imap": "~0.8.10",
-    "nodemailer": "~0.6.2",
-    "nconf": "~0.6.9"
+    "nconf": "~0.6.9",
+    "node-uuid": "~1.4.1",
+    "nodemailer": "~0.6.2"
   }
 }
