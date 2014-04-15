@@ -49,8 +49,8 @@ Then you can check you email status through the HTTP server: http://localhost:30
 It should return a JSON similar to that:
 ```json
 {
-  status: true,
-  date: "2014-04-15T11:37:54.248Z",
-  error: null
+  "status": true,
+  "date": "2014-04-15T11:37:54.248Z",
+  "error": null
 }
 ```
