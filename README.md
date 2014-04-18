@@ -53,7 +53,6 @@ It should return a JSON similar to that:
   "status": true,
   "date": "2014-04-15T11:37:54.248Z",
   "nbTry": 1,
-  "receivedDelay": 25000,
   "error": null
 }
 ```
@@ -61,5 +60,4 @@ It should return a JSON similar to that:
 - status is true if the last sent mail has been received
 - date is when the last mail has been received
 - nbTry is the number of try before the mail has been received on Gmail 
-- receivedDelay is the number of elapsed milliseconds since the mail has been received on Gmail
 - error is the prospective error message
