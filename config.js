@@ -3,6 +3,7 @@ module.exports = {
   "gmail": {
     "user": "xxx@gmail.com",  // your gmail adress
     "password": "xxx",        // your gmail password
+    "mailbox": "INBOX",       // mailbox name where the email should arrive
     "host": "imap.gmail.com", // gmail imap hostname
     "port": 993,              // gmail imap port
     "tls": true               // imap using tls

@@ -34,7 +34,8 @@ Parameters are stored into ``config.js`` file. You can overload it by creating a
 module.exports = {
   "gmail": {
     "user": "xxxx@gmail.com", // your gmail adress
-    "password": "yyy"         // your gmail passwordr
+    "password": "yyy"         // your gmail password
+    "mailbox": "INBOX",       // mailbox name where the email should arrive
   },
   "pingDelay":   1000*1,  // miliseconds to wait before sending a new mail
   "pongDelay":   1000*10, // miliseconds to wait before connecting to gmail to check that the mail arrived
