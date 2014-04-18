@@ -45,7 +45,7 @@ module.exports = {
 
 ## Usage
 
-Then you can check you email status through the HTTP server: http://localhost:3000/
+Then you can check you email status through the HTTP server: [http://localhost:3000/](http://localhost:3000/)
 
 It should return a JSON similar to that:
 ```json
