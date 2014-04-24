@@ -22,9 +22,14 @@ cd emailack
 npm install
 ```
 
-Run the application:
+Run the application (HTTP port is 3000 by default):
 ```bash
 node app.js
+```
+
+Or run it on a specific port:
+```bash
+PORT=80 node app.js
 ```
 
 ## Configuration
