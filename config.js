@@ -1,7 +1,6 @@
-
 module.exports = {
   "gmail": {
-    "user": "xxx@gmail.com",  // your gmail adress
+    "user": "xxx@gmail.com",  // your gmail email address
     "password": "xxx",        // your gmail password
     "mailbox": "INBOX",       // mailbox name where the email should arrive
     "host": "imap.gmail.com", // gmail imap hostname
