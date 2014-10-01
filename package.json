@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/kerphi/emailack",
   "dependencies": {
+    "async": "^0.9.0",
     "debug": "^0.8.0",
     "express": "^4.0.0",
     "imap": "~0.8.10",
