@@ -10,4 +10,6 @@ module.exports = {
   "pingDelay":   1000*60*5, // 5 minutes before runing a new ping
   "pongDelay":   1000*30,   // 30 secondes before checking the IMAP box after the ping is sent 
   "nbPongRetry": 3,         // number of pong retry before considering the mail is not received
+  "mailSubjectPrefix": "emailack-ping", // prefix to use as a prefix into the ping mail subject
+  "mailFrom": "yyy@gmail.com" // email used to send the ping
 }
